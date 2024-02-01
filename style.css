@@ -23,12 +23,15 @@ address {
 main {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main > img {
     width: 20%;
     height: 100%;
+    margin-right: 2rem;
 }
 main > :not(img) {
     width: 60%;
